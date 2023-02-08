@@ -4,7 +4,7 @@ from to_do import TODO
 def task10():
     return'''
     INPUT: New customer email address.
-    Input: Create password longer than six characters.
+    INPUT: Create password longer than six characters.
     CALCULATE: Verify email is valid, if not return error stating why and offering 
     opportunity to amend. If email is valid then check password has 5 or less
     characters, if so then return error stating why and offering opportunity 
