@@ -3,6 +3,10 @@ from to_do import TODO
 
 def task5():
     return '''
-    Input create a list for weekdays starting with monday.
-    Input insert random item in the list at position [0]. 
-    Output corresponding day of the week'''
+    Input x if 1 
+    output is monday, 
+    else x is 2
+    output is Tuesday
+    ...
+    else x is 8
+    output invalid number'''
