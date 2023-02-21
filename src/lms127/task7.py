@@ -2,6 +2,9 @@ from to_do import TODO
 
 
 def task7(sentence):
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+    return
+sentence = "count the characters"
+result = "20"
+
+if __name__ == "__main__":
+    task7()
