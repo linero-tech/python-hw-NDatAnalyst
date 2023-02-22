@@ -2,9 +2,9 @@ from to_do import TODO
 
 
 def task7(sentence):
-    return
-sentence = "count the characters"
-result = "20"
+    result = sentence
+    return result
 
 if __name__ == "__main__":
-    task7()
+    result = task7(sentence='i like to fly')
+    print(len(result))
