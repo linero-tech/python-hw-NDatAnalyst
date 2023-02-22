@@ -2,8 +2,10 @@ from to_do import TODO
 
 
 def task6(base1, base2, height):
-    return
-base1 = "12"
-base2 = "20"
-height = "2"
-result = "32"
+    result = (base1 + base2) / 2 * height
+    return result
+
+if __name__ == "__main__":
+    print(task6(base1=10.0, base2=20.0, height=1.0))
+    print(task6(base1=10.0, base2=0.0, height=1.0))
+    print(task6(base1=0.0, base2=20.0, height=1.0))
