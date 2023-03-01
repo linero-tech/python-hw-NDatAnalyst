@@ -3,7 +3,7 @@ from to_do import TODO
 #Inline
 '''Refactoring: changing the implentation 
 BUT keeping the behaviour, basically means
-changing code but the outcome if
+changing code but the outcome is
 the same'''
 def task7(sentence):
     result = len(sentence)
